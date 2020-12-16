@@ -6,7 +6,7 @@ app = Flask(__name__)
 # GET method
 @app.route('/')
 def func():
-    return 'Hey there, this is first python program...'
+    return 'Hey there, this is first python program...!!'
 
 
 # Main function
