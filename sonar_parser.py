@@ -3,6 +3,7 @@ import sys
 import requests
 from jinja2 import Template
 
+
 TEMPLATE = "Template/sonar-qube.html"
 URL = "http://10.12.6.31:9000/api/measures/component?additionalFields=metrics," \
       "periods&component=Test:CLSPoc&metricKeys=complexity,duplicated_lines_density," \
